@@ -1,11 +1,10 @@
+package com.example.roomwordsample;
+
 import android.content.Context;
 
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
-
-import com.example.roomwordsample.Word;
-import com.example.roomwordsample.WordDao;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -34,4 +33,4 @@ import java.util.concurrent.Executors;
             return INSTANCE;
         }
     }
-    
+
