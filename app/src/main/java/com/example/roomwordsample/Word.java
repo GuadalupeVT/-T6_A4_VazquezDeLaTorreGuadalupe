@@ -17,6 +17,4 @@ import androidx.room.PrimaryKey;
 
         public String getWord(){return this.mWord;}
 
-
-
 }
